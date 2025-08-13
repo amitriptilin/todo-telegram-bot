@@ -1,7 +1,7 @@
 import psycopg2
 
 class PIDORAS():
-    def __init__(self, dbname="lusiadas", user='postgres', password='hui', host='localhost', port='5432'):
+    def __init__(self, dbname="yourdbname", user='yourusername', password='yourpasssword', host='yourhost', port='yourport'):
         self.dbname = dbname
         self.user = user
         self.password = password
